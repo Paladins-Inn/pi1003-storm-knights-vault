@@ -37,7 +37,7 @@
   "readme": "README.md",
   "bugs": "https://github.com/Paladins-Inn/pi1003-storm-knights-vault/issues",
   "esmodules": [
-    "pi1003-storm-knights-vault.js"
+    "scripts/pi1003-storm-knights-vault.js"
   ],
   "media": [
     {
