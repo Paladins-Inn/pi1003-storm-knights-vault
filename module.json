@@ -11,7 +11,7 @@
       "url": "https://www.paladins-inn.de/"
     }
   ],
-  "version": "0.1.0",
+  "version": "0.1.1",
   "compatibleCoreVersion": "11",
   "compatibility": {
     "minimum": "11",
@@ -31,7 +31,7 @@
   ],
   "url": "https://github.com/Paladins-Inn/pi1003-storm-knights-vault",
   "manifest": "https://www.paladins-inn.de/fvtt/pi1003/v11/module.json",
-  "download": "https://www.paladins-inn.de/fvtt/pi1003/v11/pi1003.zip",
+  "download": "https://www.paladins-inn.de/fvtt/pi1003/v11/pi1003-storm-knights-vault-0.1.1.zip",
   "changelog": "https://www.paladins-inn.de/fvtt/pi1003/v11/changelog",
   "license": "LICENSE",
   "readme": "README.md",
