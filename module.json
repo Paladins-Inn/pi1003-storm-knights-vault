@@ -1,0 +1,100 @@
+{
+  "id": "pi1003-storm-knights-vault",
+  "name": "pi1003-storm-knights-vault",
+  "title": "A Storm Knights Vault (Sharing between Torg Eternity Worlds)", 
+  "description": "<p>Ein kleines Modul, um Daten zwischen verschiedenen Welten in einer Foundry VTT Installation zu tauschen.</p><p>A small module to exchange data between different worlds in a Foundry VTT instance.",
+  "authors": [
+    {
+      "name": "klenkes74",
+      "discord": "klenkes74",
+      "email": "info@paladins-inn.de",
+      "url": "https://www.paladins-inn.de/"
+    }
+  ],
+  "version": "0.1.0",
+  "compatibleCoreVersion": "11",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11.315"
+  },
+  "languages": [
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "url": "https://github.com/Paladins-Inn/pi1003-storm-knights-vault",
+  "manifest": "https://www.paladins-inn.de/fvtt/pi1003/v11/module.json",
+  "download": "https://www.paladins-inn.de/fvtt/pi1003/v11/pi1003.zip",
+  "changelog": "https://www.paladins-inn.de/fvtt/pi1003/v11/changelog",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "bugs": "https://github.com/Paladins-Inn/pi1003-storm-knights-vault/issues",
+  "esmodules": [
+    "pi1003-storm-knights-vault.js"
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "url": "modules/pi1003-storm-knights-vault/assets/art/setup.webp",
+      "thumbnail": "modules/p1003-storm-knights-vault/assets/art/setup.webp"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      { "id": "torgeternity", "type": "system" }
+    ],
+    "recommends": [
+      { "id": "te001-core-rulebook", "type": "module" },
+      { "id": "te004-living-land", "type": "module" },
+      { "id": "te006-nile-empire", "type": "module" },
+      { "id": "te008-aysle", "type": "module" },
+      { "id": "te010-cyberpapacy", "type": "module" },
+      { "id": "te012-tharkold", "type": "module" },
+      { "id": "te014-orrorsh", "type": "module" },
+      { "id": "te016-pan-pacifica", "type": "module" },
+      { "id": "multistatus", "type": "module" },
+      { "id": "multilevel-tokens", "type": "module" },
+      { "id": "tokenmagic", "type": "module" }
+    ]
+  },
+  "packs": [
+    { "name": "pi1003-journal", "label": "Torg Shared Journal", "path": "packs/pi1003-journal", "type": "JournalEntry", "ownership": { "ASSISTANT": "OWNER" } },
+    { "name": "pi1003-items", "label": "Torg Shared Items", "path": "packs/pi1003-items", "type": "Item", "system": "torgeternity", "ownership": { "ASSISTANT": "OWNER" } },
+    { "name": "pi1003-actors", "label": "Torg Shared Actors", "path": "packs/pi1003-actors", "type": "Actor", "system": "torgeternity", "ownership": { "ASSISTANT": "OWNER" } },
+
+    { "name": "pi1003-journal-gamemaster", "label": "Torg Shared Game Masters Journal", "path": "packs/pi1003-journal-gamemaster", "type": "JournalEntry", "ownership": { "ASSISTANT": "OWNER" } },
+    { "name": "pi1003-bestiary", "label": "Torg Shared Bestiary and Adversaries", "path": "packs/pi1003-bestiary", "type": "Actor", "system": "torgeternity", "ownership": { "ASSISTANT": "OWNER" } },
+    { "name": "pi1003-scenes", "label": "Torg Shared Scenes", "path": "packs/pi1003-scenes", "type": "Scene", "ownership": { "ASSISTANT": "OWNER" } },
+    { "name": "pi1003-rolltables", "label": "Torg Shared Rolltables", "path": "packs/pi1003-rolltables", "type": "RollTable", "system": "torgeternity", "private": false, "flags": {}, "ownership": { "ASSISTANT": "OWNER" } },
+    { "name": "pi1003-playlists", "label": "Torg Shared  Playlists", "path": "packs/pi1003-playlists", "type": "Playlist", "ownership": { "ASSISTANT": "OWNER" } },
+  
+    { "name": "pi1003-manual", "label": "Torg Shared Manual", "path": "packs/pi1003-manual", "type": "JournalEntry" }
+  ],
+   "packFolders": [
+    { "name": "A Storm Knights Vault", "sorting": "m", "color": "#6600CC", "folders": [
+        { "name": "Storm Knights", "sorting": "m", "color": "#960000", "packs": [
+            "pi1003-journal", 
+            "pi1003-items",
+            "pi1003-actors"
+          ]
+        },
+        { "name": "Game Master", "sorting": "m", "color": "#960000", "packs": [
+            "pi1003-journal-gamemaster", 
+            "pi1003-bestiary",
+            "pi1003-scenes", 
+            "pi1003-rolltables",
+            "pi1003-playlists"
+          ]
+        }
+      ],
+      "packs": [ "pi1003-manual" ]
+    }
+  ]
+}

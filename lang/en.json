@@ -1,0 +1,15 @@
+{
+    "PI1003.Title": "A Storm Knights Vault",
+
+    "PI1003.Welcome.Title": "Modul A Storm Knights Vault",
+    "PI1003.Welcome.LicenceText": "<p>Dieses Modul wurde von Paladins Inn unter Lizenz von <a href=\"https://ulisses-us.com/\"><img src=\"systems/torgeternity/images/ulissesLogo.webp\" alt=\"Ulisses Spiele\"></a> entwickelt.</p>",
+    "PI1003.Welcome.Discord": "<p>Danke dass Du Torg Eternity spielst. Wenn Du Hilfe benötigst, kannst Du den <a href=\"https://www.paladins-inn.de/discord\">Paladins-Inn Discord-Server</a> nutzen.</p>",
+
+    "PI1003.Settings.welcomeMessage.Name": "Display the welcome message",
+    "PI1003.Settings.welcomeMessage.Hint": "If checked, the welcome message will pop up once your world has loaded.",
+
+    "PI1003.Init.Button.OK": "OK",
+    "PI1003.Init.Button.DontShowAgain": "Don't show again",
+    
+    "PI1003.EndMarkerForComma": "<!-- end -->"
+}
